@@ -1,0 +1,8 @@
+IdGroup(G) = [ 384, 592 ]
+Q is isomorphic to a Sylow 2-subgroup of PSU(3,4): true
+Q' = Phi(Q) = Z(Q) = {(0,b) : b in GF(4)}: true
+C_Q(t) = 1: true; t and phi commute: true; orders: [ 3, 2 ]
+G' = Q: true; Z_oo(G) = 1: true
+D(G) = Phi(P) = C4 x C4: true C4 x C4
+D_H(G) = Q<t>: true
+[D_H(G), G] <= D(G) Z_oo(G): false

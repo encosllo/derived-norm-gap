@@ -1,0 +1,25 @@
+order 193 done
+order 194 done
+order 195 done
+OUTER [ 196, 8 ] case 3 (C7 x C7) : C4
+OUTER [ 196, 9 ] case 3 D14 x D14
+order 196 done
+order 197 done
+order 198 done
+order 199 done
+OUTER [ 200, 40 ] case 3 (C5 x C5) : C8
+OUTER [ 200, 41 ] case 3 D10 x (C5 : C4)
+OUTER [ 200, 42 ] case 3 (C5 x C5) : (C4 x C2)
+OUTER [ 200, 43 ] case 2 (C5 x C5) : D8
+OUTER [ 200, 44 ] case 2 (C5 x C5) : Q8
+order 200 done
+FINAL: rec(
+  C15 := [  ],
+  C17 := [  ],
+  T14 := [  ],
+  T16a := [  ],
+  T16b := [  ],
+  T16c := [  ],
+  T18 := [  ],
+  T41 := [  ],
+  T43 := [  ] )

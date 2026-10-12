@@ -1,0 +1,27 @@
+GAP [ 192, 95 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 101 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 107 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 191 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 193 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 195 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 197 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 199 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 591 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 621 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 1001 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+OUTER [ 192, 1009 ] case 3 (((C2 x C2 x C2 x C2) : C2) : C2) : C3
+GAP [ 192, 1009 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+OUTER [ 192, 1023 ] case 3 (((C2 x C2 x C2 x C2) : C2) : C2) : C3
+GAP [ 192, 1025 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+OUTER [ 192, 1509 ] case 3 ((C2 x ((C4 x C2) : C2)) : C2) : C3
+order 192 done
+FINAL: rec(
+  C15 := [  ],
+  C17 := [  ],
+  T14 := [  ],
+  T16a := [  ],
+  T16b := [  ],
+  T16c := [  ],
+  T18 := [  ],
+  T41 := [  ],
+  T43 := [  ] )

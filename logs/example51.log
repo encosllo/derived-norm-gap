@@ -1,0 +1,6 @@
+IdGroup(G) = [ 96, 72 ]
+u has order 6: true; tau acts as -1: true
+G' = R: true; Z_oo(G) = 1: true
+K = <1, tau> is D8: true; K' normal in G: false
+D(G) = P = R<tau>: true, |D(G)| = 32
+D_H(G) = G: true

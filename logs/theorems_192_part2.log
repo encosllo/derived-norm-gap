@@ -1,0 +1,26 @@
+OUTER [ 192, 4 ] case 3 (C4 . (C4 x C4)) : C3
+GAP [ 192, 98 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 100 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 104 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 192 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 194 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 196 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 198 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 612 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 620 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 636 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 654 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 1000 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 1002 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 1008 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
+order 192 done
+FINAL: rec(
+  C15 := [  ],
+  C17 := [  ],
+  T14 := [  ],
+  T16a := [  ],
+  T16b := [  ],
+  T16c := [  ],
+  T18 := [  ],
+  T41 := [  ],
+  T43 := [  ] )

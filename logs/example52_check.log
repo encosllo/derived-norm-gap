@@ -1,0 +1,4 @@
+subgroups: 402, H-subgroups: 192
+|D(G)| = 16, |Z_oo(G)| = 1, |D_H(G)| = 192, |[D_H(G),G]| = 64, |G'| = 64
+[D_H(G),G] <= D(G) Z_oo(G): false
+agrees with NormData: true

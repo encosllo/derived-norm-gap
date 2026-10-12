@@ -1,0 +1,67 @@
+GAP [ 768, 1083482 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083494 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083498 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083502 ] |D_H:DZ|=3 G'<=D:true
+COUNTEREXAMPLE [ 768, 1083522 ]
+GAP [ 768, 1083522 ] |D_H:DZ|=12 G'<=D:false
+GAP [ 768, 1083526 ] |D_H:DZ|=3 G'<=D:true
+COUNTEREXAMPLE [ 768, 1083530 ]
+GAP [ 768, 1083530 ] |D_H:DZ|=12 G'<=D:false
+COUNTEREXAMPLE [ 768, 1083534 ]
+GAP [ 768, 1083534 ] |D_H:DZ|=12 G'<=D:false
+GAP [ 768, 1083538 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083550 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083562 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083610 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083614 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083618 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083622 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083626 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083630 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083634 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083638 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083642 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083662 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083666 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083670 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083674 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083678 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083682 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083686 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083690 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083706 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083710 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083714 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083718 ] |D_H:DZ|=3 G'<=D:true
+COUNTEREXAMPLE [ 768, 1083786 ]
+GAP [ 768, 1083786 ] |D_H:DZ|=12 G'<=D:false
+GAP [ 768, 1083854 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083894 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083898 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083902 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083950 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083958 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083966 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083978 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083994 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084010 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084018 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084022 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084030 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084214 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084230 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084242 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084246 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084250 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084254 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084258 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084378 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084398 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084414 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084502 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084506 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084510 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1084514 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1085038 ] |D_H:DZ|=3 G'<=D:true
+order 768 done (heavy groups so far: 347)
+FINAL
