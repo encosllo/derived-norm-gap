@@ -1,0 +1,11 @@
+COUNTEREXAMPLE [ 384, 592 ]
+GAP [ 384, 592 ] |D_H:DZ|=12 G'<=D:false
+GAP [ 384, 5760 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 384, 5764 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 384, 5768 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 384, 5772 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 384, 5776 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 384, 5784 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 384, 5788 ] |D_H:DZ|=3 G'<=D:true
+order 384 done (heavy groups so far: 48)
+FINAL

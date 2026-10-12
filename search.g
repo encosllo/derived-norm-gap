@@ -10,10 +10,13 @@
 # i = ir mod ik are considered (useful for orders with very many groups, such as 768).
 # Usage:  gap -q -c 'nmin:=201;; nmax:=1000;; r:=0;; k:=1;;' lib.g search.g
 #         gap -q -c 'nmin:=768;; nmax:=768;; ir:=1;; ik:=4;;' lib.g search.g
+#         gap -q -c 'nmin:=201;; nmax:=1000;; skip:=[384,768];;' lib.g search.g
 if not IsBound(r) then r := 0; k := 1; fi;
 if not IsBound(ir) then ir := 0; ik := 1; fi;
+# Optional list skip: orders to leave out (e.g. those run separately).
+if not IsBound(skip) then skip := []; fi;
 nheavy := 0;
-for n in Filtered([nmin..nmax], m -> m mod k = r mod k and not IsPrimePowerInt(m)) do
+for n in Filtered([nmin..nmax], m -> m mod k = r mod k and not m in skip and not IsPrimePowerInt(m)) do
   for i in Filtered([1..NrSmallGroups(n)], j -> j mod ik = ir mod ik) do
     G := SmallGroup(n, i);
     if not IsNilpotentGroup(G) then

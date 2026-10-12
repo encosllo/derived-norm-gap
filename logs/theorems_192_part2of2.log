@@ -1,4 +1,4 @@
-OUTER [ 192, 4 ] case 3 (C4 . (C4 x C4)) : C3
+OUTER [ 192, 4 ] case 3 (C4 . (C4 x C4)) : C3
 GAP [ 192, 98 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
 GAP [ 192, 100 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
 GAP [ 192, 104 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true

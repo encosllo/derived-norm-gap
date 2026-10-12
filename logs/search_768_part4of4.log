@@ -1,4 +1,4 @@
-GAP [ 768, 1083500 ] |D_H:DZ|=3 G'<=D:true
+GAP [ 768, 1083500 ] |D_H:DZ|=3 G'<=D:true
 COUNTEREXAMPLE [ 768, 1083520 ]
 GAP [ 768, 1083520 ] |D_H:DZ|=24 G'<=D:false
 GAP [ 768, 1083524 ] |D_H:DZ|=3 G'<=D:true

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article below and this software."
+title: "GAP code for \"The derived norm of H-subgroups in finite groups\""
+type: software
+authors:
+  - family-names: Gong
+    given-names: Lü
+    affiliation: "School of Mathematics and Statistics, Nantong University, China"
+  - family-names: Wang
+    given-names: Bo
+    affiliation: "School of Mathematics and Statistics, Nantong University, China"
+  - family-names: Cosme Llópez
+    given-names: Enric
+    affiliation: "Departament de Matemàtiques, Universitat de València, Spain"
+license: MIT
+keywords:
+  - GAP
+  - finite groups
+  - norm
+  - H-subgroup
+  - derived subgroup
+  - hypercenter
+preferred-citation:
+  type: article
+  title: "The derived norm of H-subgroups in finite groups"
+  authors:
+    - family-names: Gong
+      given-names: Lü
+    - family-names: Wang
+      given-names: Bo
+    - family-names: Cosme Llópez
+      given-names: Enric

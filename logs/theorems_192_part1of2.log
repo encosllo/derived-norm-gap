@@ -1,4 +1,4 @@
-GAP [ 192, 95 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
+GAP [ 192, 95 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
 GAP [ 192, 101 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
 GAP [ 192, 107 ] supersoluble=true G'<=D(G)=true [D_H,G]<=DZ=true
 GAP [ 192, 191 ] supersoluble=false G'<=D(G)=true [D_H,G]<=DZ=true
