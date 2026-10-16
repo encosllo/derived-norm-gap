@@ -16,19 +16,19 @@ Theorem and section numbers refer to the paper.
 ## Requirements
 
 GAP 4.16 or later, with the SmallGroups library (included in the standard GAP distribution).
-The runs in `logs/` were made with GAP 4.16. The shell scripts need `bash` and `xargs`.
+The runs in `logs/` were made with GAP 4.16. The shell scripts need `bash` and `xargs`. All commands are run from the root of the repository.
 
 ## Files
 
 | File | Contents |
 |---|---|
-| `lib.g` | Common functions: the test for $\mathcal H$-subgroups, $D(G)$, $D_{\mathcal H}(G)$ and $A(G)$ (`NormData`), the terminal term of an ascending series (`UpperSeries`) and $Z_{\mathfrak{NA}}(G)$ (`ZNA`). Must be loaded before the other scripts. |
-| `theorems.g` | Checks Theorem 1.4, Corollary 1.5, Theorem 1.6, Corollary 1.7, Theorem 1.8, Theorem 4.1(3), Theorem 4.3 and Remark 4.4 for the non-nilpotent groups of a range of orders. It also lists the outer-$D_{\mathcal H}$-groups (Remark 4.4) and the groups with $D_{\mathcal H}(G)\ne D(G)Z_\infty(G)$ (Section 5). |
-| `question53.g` | Checks the inclusion $D_{\mathcal H}(G)\cap K\le D_{\mathcal H}(K)$ of Question 5.3 for all subgroups $K$. |
-| `example51.g` | Example 5.1: builds $G=\mathbb Z[\omega]/4\mathbb Z[\omega]\rtimes\langle-\omega\rangle$ and checks its claims. |
-| `example52.g` | Example 5.2: builds the model $G=Q\rtimes\langle t,\varphi\rangle$ over $\mathbb F_{16}$ and checks its claims. |
-| `example52_check.g` | Independent check of $D(G)$ and $D_{\mathcal H}(G)$ for `SmallGroup(384,592)`: runs over all subgroups and all $g\in G$, without `NormData`. |
-| `search.g` | Search for groups with $[D_{\mathcal H}(G),G]\not\le D(G)Z_\infty(G)$ (Section 5), with a cheap filter based on Theorem 1.6. |
+| `gap/lib.g` | Common functions: the test for $\mathcal H$-subgroups, $D(G)$, $D_{\mathcal H}(G)$ and $A(G)$ (`NormData`), the terminal term of an ascending series (`UpperSeries`) and $Z_{\mathfrak{NA}}(G)$ (`ZNA`). Must be loaded before the other scripts. |
+| `gap/theorems.g` | Checks Theorem 1.4, Corollary 1.5, Theorem 1.6, Corollary 1.7, Theorem 1.8, Theorem 4.1(3), Theorem 4.3 and Remark 4.4 for the non-nilpotent groups of a range of orders. It also lists the outer-$D_{\mathcal H}$-groups (Remark 4.4) and the groups with $D_{\mathcal H}(G)\ne D(G)Z_\infty(G)$ (Section 5). |
+| `gap/question53.g` | Checks the inclusion $D_{\mathcal H}(G)\cap K\le D_{\mathcal H}(K)$ of Question 5.3 for all subgroups $K$. |
+| `gap/example51.g` | Example 5.1: builds $G=\mathbb Z[\omega]/4\mathbb Z[\omega]\rtimes\langle-\omega\rangle$ and checks its claims. |
+| `gap/example52.g` | Example 5.2: builds the model $G=Q\rtimes\langle t,\varphi\rangle$ over $\mathbb F_{16}$ and checks its claims. |
+| `gap/example52_check.g` | Independent check of $D(G)$ and $D_{\mathcal H}(G)$ for `SmallGroup(384,592)`: runs over all subgroups and all $g\in G$, without `NormData`. |
+| `gap/search.g` | Search for groups with $[D_{\mathcal H}(G),G]\not\le D(G)Z_\infty(G)$ (Section 5), with a cheap filter based on Theorem 1.6. |
 | `run_checks.sh` | Reproduces `logs/theorems_*`, `logs/question53_*` and `logs/example*`. |
 | `run_search.sh` | Reproduces `logs/search_*` (all orders from 201 to 1000). |
 | `logs/` | Output of the runs. |
@@ -42,8 +42,8 @@ The scripts read the range of orders from the variables `nmin` and `nmax`. The o
 header of each script. For example:
 
 ```
-gap -q -c 'nmin:=1;; nmax:=100;;' lib.g theorems.g
-gap -q lib.g example52.g
+gap -q -c 'nmin:=1;; nmax:=100;;' gap/lib.g gap/theorems.g
+gap -q gap/lib.g gap/example52.g
 ```
 
 To reproduce all the logs (4 parallel processes):

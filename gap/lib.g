@@ -1,6 +1,6 @@
 # Common functions for the computations in
 #   L. Gong, B. Wang, E. Cosme Llopez, "The derived norm of H-subgroups in finite groups".
-# Load this file before any of the other scripts:  gap -q lib.g <script>.g
+# Load this file before any of the other scripts:  gap -q gap/lib.g gap/<script>.g
 
 # H is an H-subgroup of G iff N_G(H) ∩ H^g <= H for all g in G.
 # H^g only depends on the coset N_G(H) g, so a right transversal suffices.

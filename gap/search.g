@@ -8,9 +8,9 @@
 # "GAP [n, i] |D_H:DZ|=... G'<=D:..." for every heavy group with D_H(G) <> D(G)Z_oo(G).
 # Optional variables ir and ik split the groups of each order: only SmallGroup(n, i) with
 # i = ir mod ik are considered (useful for orders with very many groups, such as 768).
-# Usage:  gap -q -c 'nmin:=201;; nmax:=1000;; r:=0;; k:=1;;' lib.g search.g
-#         gap -q -c 'nmin:=768;; nmax:=768;; ir:=1;; ik:=4;;' lib.g search.g
-#         gap -q -c 'nmin:=201;; nmax:=1000;; skip:=[384,768];;' lib.g search.g
+# Usage:  gap -q -c 'nmin:=201;; nmax:=1000;; r:=0;; k:=1;;' gap/lib.g gap/search.g
+#         gap -q -c 'nmin:=768;; nmax:=768;; ir:=1;; ik:=4;;' gap/lib.g gap/search.g
+#         gap -q -c 'nmin:=201;; nmax:=1000;; skip:=[384,768];;' gap/lib.g gap/search.g
 if not IsBound(r) then r := 0; k := 1; fi;
 if not IsBound(ir) then ir := 0; ik := 1; fi;
 # Optional list skip: orders to leave out (e.g. those run separately).

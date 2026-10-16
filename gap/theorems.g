@@ -25,8 +25,8 @@
 # Optional variables r and k: only the groups SmallGroup(n, i) with i = r mod k are checked
 # (to split an order among several processes).
 #
-# Usage:  gap -q -c 'nmin:=1;; nmax:=200;;' lib.g theorems.g
-#         gap -q -c 'nmin:=192;; nmax:=192;; r:=1;; k:=3;;' lib.g theorems.g
+# Usage:  gap -q -c 'nmin:=1;; nmax:=200;;' gap/lib.g gap/theorems.g
+#         gap -q -c 'nmin:=192;; nmax:=192;; r:=1;; k:=3;;' gap/lib.g gap/theorems.g
 if not IsBound(r) then r := 1; k := 1; fi;
 
 bad := rec(T14 := [], C15 := [], T16a := [], T16b := [], T16c := [], C17 := [],

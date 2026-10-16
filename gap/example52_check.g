@@ -1,7 +1,7 @@
 # Independent check of D(G) and D_H(G) for G = SmallGroup(384,592) (Example 5.2):
 # runs over all subgroups of G (not only representatives of conjugacy classes) and tests the
 # H-subgroup condition N_G(H) ∩ H^g <= H for every g in G, without using NormData.
-# Usage:  gap -q lib.g example52_check.g
+# Usage:  gap -q gap/lib.g gap/example52_check.g
 G := SmallGroup(384, 592);
 subs := Concatenation(List(ConjugacyClassesSubgroups(G), AsList));
 IsH := H -> ForAll(AsList(G), g -> IsSubset(H, Intersection(Normalizer(G, H), H^g)));

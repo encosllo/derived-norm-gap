@@ -3,7 +3,7 @@
 # representatives of the conjugacy classes of subgroups, since D_H(G) is normal in G.
 # (For nilpotent G and K <= G, K is nilpotent and D_H(K) = K, so the inclusion is trivial.)
 # Prints "COUNTEREXAMPLE [n, i]" for every counterexample.
-# Usage:  gap -q -c 'nmin:=1;; nmax:=200;;' lib.g question53.g
+# Usage:  gap -q -c 'nmin:=1;; nmax:=200;;' gap/lib.g gap/question53.g
 if not IsBound(r) then r := 1; k := 1; fi;
 bad := [];
 for n in [nmin..nmax] do

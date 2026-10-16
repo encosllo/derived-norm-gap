@@ -2,7 +2,7 @@
 # by multiplication. R is identified with Z/4 x Z/4 via a + b w <-> (a, b); multiplication by w is
 # the matrix [[0,1],[-1,-1]] acting on row vectors. G acts on the 16 elements of R by affine maps.
 # Checks the claims of Example 5.1.
-# Usage:  gap -q lib.g example51.g
+# Usage:  gap -q gap/lib.g gap/example51.g
 pts := Tuples([0..3], 2);
 Act := m -> PermList(List(pts, v -> Position(pts, List(v*m, x -> x mod 4))));
 Tr := t -> PermList(List(pts, v -> Position(pts, List(v+t, x -> x mod 4))));

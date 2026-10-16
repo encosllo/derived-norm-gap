@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 run_job() {
   args="${1%%|*}"; name="${1##*|}"
   echo "$(date '+%F %T') start $name"
-  gap -q -c "$args" lib.g search.g < /dev/null 2>&1 | tr -d '\r' > "logs/$name.log"
+  gap -q -c "$args" gap/lib.g gap/search.g < /dev/null 2>&1 | tr -d '\r' > "logs/$name.log"
   echo "$(date '+%F %T') end   $name"
 }
 export -f run_job

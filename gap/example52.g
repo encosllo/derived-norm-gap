@@ -5,7 +5,7 @@
 # t: (a,b) -> (l a, l^2 b), with l in F of order 3;  phi: (a,b) -> (a^4, b^4);
 # G = Q x| <t, phi>, acting on the 64 elements of Q (right multiplications and automorphisms).
 # Checks the claims of Example 5.2.
-# Usage:  gap -q lib.g example52.g
+# Usage:  gap -q gap/lib.g gap/example52.g
 F := GF(16); l := PrimitiveRoot(F)^5;
 Q := Filtered(Tuples(AsList(F), 2), p -> p[2] + p[2]^4 = p[1]^5);
 Mul := function(x, y) return [x[1]+y[1], x[2]+y[2]+x[1]*y[1]^4]; end;
